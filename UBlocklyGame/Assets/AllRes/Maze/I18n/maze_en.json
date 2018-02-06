@@ -1,0 +1,13 @@
+{
+    "MAZE": "Maze",
+    
+    "MAZE_MOVE_FORWARD": "Move Forward",
+    "MAZE_TURN_RIGHT": "Turn Right",
+    "MAZE_TURN_LEFT": "Turn Left",
+    
+    "MAZE_ACCESS_FRONT": "Can Access Front",
+    "MAZE_ACCESS_RIGHT": "Can Access Right",
+    "MAZE_ACCESS_LEFT": "Can Access Left",
+    
+    "MAZE_REACH_TERMINAL": "Reach Terminal"
+}

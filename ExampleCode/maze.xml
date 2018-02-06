@@ -1,0 +1,54 @@
+<xml>
+    <variables />
+    <block type="controls_whileUntil" id="2CFWS={V-k`S+EGfT1B]" x="25" y="-33">
+        <field name="Prefix_MODE">repeat</field>
+        <field name="MODE">UNTIL</field>
+        <value name="BOOL">
+            <block type="maze_reach_terminal" id="7eXJYMx(Vn*~.*D0rikl" />
+        </value>
+        <statement name="DO">
+            <block type="controls_if" id="5+L0eGZY#Yq3%7FC%F]q">
+                <mutation elseif="2" />
+                <value name="IF0">
+                    <block type="maze_bool_access" id="M~)hZ{cCwy[PY9)Gb[o(">
+                        <field name="Prefix_ACCESS">Can Access</field>
+                        <field name="ACCESS">FRONT</field>
+                    </block>
+                </value>
+                <statement name="DO0">
+                    <block type="maze_move" id="|_Ghv}1n)!Qc?HjqUl09" />
+                </statement>
+                <value name="IF1">
+                    <block type="maze_bool_access" id=",IZE(hlJaOB!:)zUOy-_">
+                        <field name="Prefix_ACCESS">Can Access</field>
+                        <field name="ACCESS">RIGHT</field>
+                    </block>
+                </value>
+                <statement name="DO1">
+                    <block type="maze_turn" id="`%ZLxwW%-~P7#N+#QsE.">
+                        <field name="Prefix_DIRECTION">Turn</field>
+                        <field name="DIRECTION">RIGHT</field>
+                        <next>
+                            <block type="maze_move" id="4s]+9se.|s2-n+ANwK:|" />
+                        </next>
+                    </block>
+                </statement>
+                <value name="IF2">
+                    <block type="maze_bool_access" id="0Qr_-,9`ma*tT!gvW1`p">
+                        <field name="Prefix_ACCESS">Can Access</field>
+                        <field name="ACCESS">LEFT</field>
+                    </block>
+                </value>
+                <statement name="DO2">
+                    <block type="maze_turn" id="zXK{SCQL!dUL_8ZMur+{">
+                        <field name="Prefix_DIRECTION">Turn</field>
+                        <field name="DIRECTION">LEFT</field>
+                        <next>
+                            <block type="maze_move" id="LjA+PeBr;@}$3K2_jOs{" />
+                        </next>
+                    </block>
+                </statement>
+            </block>
+        </statement>
+    </block>
+</xml>

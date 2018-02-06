@@ -1,0 +1,46 @@
+[
+  {
+    "type": "maze_move",
+    "message0": "%{BKY_MAZE_MOVE_FORWARD}",
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "maze_turn",
+    "message0": "%1",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "DIRECTION",
+        "options": [
+          ["%{BKY_MAZE_TURN_RIGHT}", "RIGHT"],
+          ["%{BKY_MAZE_TURN_LEFT}", "LEFT"]
+        ]
+      }
+    ],
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "maze_bool_access",
+    "message0": "%1",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "ACCESS",
+        "options": [
+          ["%{BKY_MAZE_ACCESS_FRONT}", "FRONT"],
+          ["%{BKY_MAZE_ACCESS_RIGHT}", "RIGHT"],
+          ["%{BKY_MAZE_ACCESS_LEFT}", "LEFT"]
+        ]
+      }
+    ],
+    "output": "Boolean",
+    "colour": "%{BKY_MAZE_HUE}"
+  },
+  {
+    "type": "maze_reach_terminal",
+    "message0": "%{BKY_MAZE_REACH_TERMINAL}",
+    "output": "Boolean"
+  }
+]

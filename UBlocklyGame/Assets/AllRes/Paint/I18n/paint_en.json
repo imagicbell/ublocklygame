@@ -1,0 +1,14 @@
+{
+    "PAINT": "Paint",
+    
+    "PAINT_PIXEL": "Pixels",
+    "PAINT_DEGREE": "Degree",
+    "PAINT_SETCOLOR": "Set Color",
+    
+    "PAINT_MOVE_FORWARD": "Move Forward",
+    "PAINT_MOVE_BACKWARD": "Move Backward",
+    "PAINT_TURN_RIGHT": "Turn Right",
+    "PAINT_TURN_LEFT": "Turn Left",
+    "PAINT_JUMP_FORWARD": "Jump Forward",
+    "PAINT_JUMP_BACKWARD": "Jump Backward"
+}

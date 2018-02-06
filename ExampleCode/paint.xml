@@ -1,0 +1,113 @@
+<xml>
+    <variables>
+        <variable type="" id="@2z1`7mnNs1`sp38w(hs">i</variable>
+    </variables>
+    <block type="controls_repeat" id="DJ3?:B[U|ezS=4[mwb`:" x="37" y="-13">
+        <field name="TIMES">6</field>
+        <statement name="DO">
+            <block type="controls_repeat" id="U2U,gFgBW`wBUEISu;0i">
+                <field name="TIMES">360</field>
+                <statement name="DO">
+                    <block type="paint_move" id="RmpFGd!c]$*I`7Cd(vax">
+                        <field name="Prefix_DIRECTION">Move</field>
+                        <field name="DIRECTION">FORWARD</field>
+                        <field name="PIXEL">1</field>
+                        <next>
+                            <block type="paint_turn" id="]aAx:h.=[Nj0?ortNqa:">
+                                <field name="Prefix_DIRECTION">Turn</field>
+                                <field name="DIRECTION">RIGHT</field>
+                                <field name="DEGREE">1</field>
+                            </block>
+                        </next>
+                    </block>
+                </statement>
+                <next>
+                    <block type="paint_turn" id="X)`-It3oN1W#3{f4=X!m">
+                        <field name="Prefix_DIRECTION">Turn</field>
+                        <field name="DIRECTION">RIGHT</field>
+                        <field name="DEGREE">60</field>
+                        <next>
+                            <block type="paint_jump" id="PCcP?XATY,]LlFcIX{VK">
+                                <field name="Prefix_DIRECTION">Jump</field>
+                                <field name="DIRECTION">FORWARD</field>
+                                <field name="PIXEL">100</field>
+                            </block>
+                        </next>
+                    </block>
+                </next>
+            </block>
+        </statement>
+        <next>
+            <block type="paint_jump" id="gs9?Gw[=7mR6q:-]K@AV">
+                <field name="Prefix_DIRECTION">Jump</field>
+                <field name="DIRECTION">FORWARD</field>
+                <field name="PIXEL">200</field>
+                <next>
+                    <block type="paint_color" id="a*]g[g!RbZZhdZir:`lD">
+                        <field name="COLOR">#ff0000</field>
+                        <next>
+                            <block type="controls_for" id="A7Q](*=GBo-[70q!8ke^">
+                                <field name="VAR" id="@2z1`7mnNs1`sp38w(hs" variableType="">i</field>
+                                <value name="FROM">
+                                    <block type="math_number" id="j47kVrxNh|t|Pgk+7YdY">
+                                        <field name="NUM">1</field>
+                                    </block>
+                                </value>
+                                <value name="TO">
+                                    <block type="math_number" id="[9Ssg5h4R8pN/h:s%OX|">
+                                        <field name="NUM">7</field>
+                                    </block>
+                                </value>
+                                <value name="BY">
+                                    <block type="math_number" id="4Mgt!:^4L*;Hw@HR;Itv">
+                                        <field name="NUM">1</field>
+                                    </block>
+                                </value>
+                                <statement name="DO">
+                                    <block type="controls_repeat" id="xB8Z%uujSaDxTvVge^jD">
+                                        <field name="TIMES">5</field>
+                                        <statement name="DO">
+                                            <block type="paint_move" id="xt8Uf?QV^zZh|IN+K*CZ">
+                                                <field name="Prefix_DIRECTION">Move</field>
+                                                <field name="DIRECTION">FORWARD</field>
+                                                <field name="PIXEL">100</field>
+                                                <next>
+                                                    <block type="paint_turn" id="NtfnU`/}c1(NWfKq!}8V">
+                                                        <field name="Prefix_DIRECTION">Turn</field>
+                                                        <field name="DIRECTION">LEFT</field>
+                                                        <field name="DEGREE">72</field>
+                                                        <next>
+                                                            <block type="paint_move" id="@pVma!luO3Jktc[xAeO9">
+                                                                <field name="Prefix_DIRECTION">Move</field>
+                                                                <field name="DIRECTION">FORWARD</field>
+                                                                <field name="PIXEL">100</field>
+                                                                <next>
+                                                                    <block type="paint_turn" id="=T#fMVgPtw:H(4dCU-WS">
+                                                                        <field name="Prefix_DIRECTION">Turn</field>
+                                                                        <field name="DIRECTION">RIGHT</field>
+                                                                        <field name="DEGREE">144</field>
+                                                                    </block>
+                                                                </next>
+                                                            </block>
+                                                        </next>
+                                                    </block>
+                                                </next>
+                                            </block>
+                                        </statement>
+                                        <next>
+                                            <block type="paint_turn" id="hUXIn|$atfA:u=teak8r">
+                                                <field name="Prefix_DIRECTION">Turn</field>
+                                                <field name="DIRECTION">RIGHT</field>
+                                                <field name="DEGREE">50</field>
+                                            </block>
+                                        </next>
+                                    </block>
+                                </statement>
+                            </block>
+                        </next>
+                    </block>
+                </next>
+            </block>
+        </next>
+    </block>
+</xml>
