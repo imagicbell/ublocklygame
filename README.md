@@ -17,7 +17,7 @@ https://youtu.be/zlnsKYT-IUw
    git clone git@github.com:imagicbell/ublockly.git
    ```
 
-   Make sure the two git are in the same root folder.
+   **Make sure the two git are in the same root folder.**
 
 2. Open **UBlocklyGame** in Unity.
 
